@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class ReverseNameMain {
     public static void main(String[] args) {
         String name1 = askForUserName();
         String name2 = askForUserName();
@@ -12,7 +12,7 @@ public class Main {
         String inverted = "";
         for (int i = name2.length() - 1; i >= 0; i--) {
 
-            inverted = inverted + name2.substring(i, i + 1);
+            inverted += name2.substring(i, i + 1);
             System.out.print(inverted);
 
         }
@@ -27,5 +27,3 @@ public class Main {
 
 
 }
-
-
